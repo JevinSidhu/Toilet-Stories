@@ -7,13 +7,31 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+
 
 class StoryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        Alamofire.request(.GET, "https://sheetsu.com/apis/73391d9b")
+            .responseJSON { response in
+                switch response.result {
+                case .Success:
+                    if let value = response.result.value {
+                        let json = JSON(value)
+                        let story = Story(json: json)
+                        print(story.title)
+                        print(story.author)
+                        print(story.body)
+
+                    }
+                case .Failure(let error):
+                    print(error)
+                }
+        }
     }
 
     override func didReceiveMemoryWarning() {

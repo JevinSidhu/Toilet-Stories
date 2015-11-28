@@ -137,14 +137,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the snake’s head and tail" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GA8-qK-VeZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GA8-qK-VeZ">
                                 <rect key="frame" x="20" y="76" width="541" height="89"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="31"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="leo tolstoy" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWO-EF-mLj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWO-EF-mLj">
                                 <rect key="frame" x="20" y="36" width="152" height="41"/>
                                 <animations/>
                                 <constraints>
@@ -155,24 +155,9 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.29587204391891891" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NhO-bP-WHB">
-                                <rect key="frame" x="20" y="173" width="560" height="530"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="this is a nice test." lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NhO-bP-WHB">
+                                <rect key="frame" x="20" y="173" width="560" height="26.5"/>
                                 <animations/>
-                                <string key="text">The Snake's Tail had a quarrel with the Snake's Head about who was to walk in front. The Head said:
-
-"You cannot walk in front, because you have no eyes and no ears."
-
-The Tail said:
-
-"Yes, but I have strength, I move you; if I want to, I can wind myself around a tree, and you cannot get off the spot."
-
-The Head said:
-
-"Let us separate!"
-
-And the Tail tore himself loose from the Head, and crept on; but the moment he got away from the Head, he fell into a hole and was lost.
-
-</string>
                                 <fontDescription key="fontDescription" name="PTSerif-Regular" family="PT Serif" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
