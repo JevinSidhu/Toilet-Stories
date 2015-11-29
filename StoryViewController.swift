@@ -13,6 +13,12 @@ import SwiftyJSON
 
 class StoryViewController: UIViewController {
     
+    @IBOutlet weak var authorLabel: UILabel!
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var bodyLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,6 +32,10 @@ class StoryViewController: UIViewController {
                         print(story.title)
                         print(story.author)
                         print(story.body)
+                        
+                        self.titleLabel.text = story.title
+                        self.authorLabel.text = story.author
+                        self.bodyLabel.text = story.body
 
                     }
                 case .Failure(let error):

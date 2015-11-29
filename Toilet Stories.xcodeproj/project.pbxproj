@@ -12,6 +12,10 @@
 		B213E05B1C099B180089C69D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213E04E1C099B110089C69D /* SwiftyJSON.framework */; };
 		B213E05C1C099B180089C69D /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B213E04E1C099B110089C69D /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B213E0621C09B67D0089C69D /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213E0611C09B67D0089C69D /* Story.swift */; };
+		B213E0731C09CECB0089C69D /* PT_Serif-Web-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B213E06F1C09CECB0089C69D /* PT_Serif-Web-Bold.ttf */; };
+		B213E0741C09CECB0089C69D /* PT_Serif-Web-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B213E0701C09CECB0089C69D /* PT_Serif-Web-BoldItalic.ttf */; };
+		B213E0751C09CECB0089C69D /* PT_Serif-Web-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B213E0711C09CECB0089C69D /* PT_Serif-Web-Italic.ttf */; };
+		B213E0761C09CECB0089C69D /* PT_Serif-Web-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B213E0721C09CECB0089C69D /* PT_Serif-Web-Regular.ttf */; };
 		B23192361BB0C2690085815A /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23192351BB0C2690085815A /* StoryViewController.swift */; };
 		B2D263491BAE960500EAD940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D263481BAE960500EAD940 /* AppDelegate.swift */; };
 		B2D2634B1BAE960500EAD940 /* LengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2634A1BAE960500EAD940 /* LengthViewController.swift */; };
@@ -159,13 +163,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B213DFE91C097AE70089C69D /* PT_Serif-Web-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Bold.ttf"; sourceTree = "<group>"; };
-		B213DFEA1C097AE70089C69D /* PT_Serif-Web-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-BoldItalic.ttf"; sourceTree = "<group>"; };
-		B213DFEB1C097AE70089C69D /* PT_Serif-Web-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Italic.ttf"; sourceTree = "<group>"; };
-		B213DFEC1C097AE70089C69D /* PT_Serif-Web-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Regular.ttf"; sourceTree = "<group>"; };
 		B213DFEE1C098F440089C69D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		B213E0431C099B110089C69D /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../../../SwiftyJSON-master 2/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
 		B213E0611C09B67D0089C69D /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		B213E06F1C09CECB0089C69D /* PT_Serif-Web-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Bold.ttf"; sourceTree = "<group>"; };
+		B213E0701C09CECB0089C69D /* PT_Serif-Web-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B213E0711C09CECB0089C69D /* PT_Serif-Web-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Italic.ttf"; sourceTree = "<group>"; };
+		B213E0721C09CECB0089C69D /* PT_Serif-Web-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT_Serif-Web-Regular.ttf"; sourceTree = "<group>"; };
 		B23192351BB0C2690085815A /* StoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryViewController.swift; path = ../StoryViewController.swift; sourceTree = "<group>"; };
 		B2D263431BAE960500EAD940 /* Toilet Stories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toilet Stories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D263471BAE960500EAD940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -199,17 +203,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B213DFED1C097AEC0089C69D /* PT Serif */ = {
-			isa = PBXGroup;
-			children = (
-				B213DFE91C097AE70089C69D /* PT_Serif-Web-Bold.ttf */,
-				B213DFEA1C097AE70089C69D /* PT_Serif-Web-BoldItalic.ttf */,
-				B213DFEB1C097AE70089C69D /* PT_Serif-Web-Italic.ttf */,
-				B213DFEC1C097AE70089C69D /* PT_Serif-Web-Regular.ttf */,
-			);
-			name = "PT Serif";
-			sourceTree = "<group>";
-		};
 		B213DFEF1C098F440089C69D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,7 +261,10 @@
 				B2D2634C1BAE960500EAD940 /* Main.storyboard */,
 				B2D2634F1BAE960500EAD940 /* Images.xcassets */,
 				B2D263511BAE960500EAD940 /* LaunchScreen.xib */,
-				B213DFED1C097AEC0089C69D /* PT Serif */,
+				B213E06F1C09CECB0089C69D /* PT_Serif-Web-Bold.ttf */,
+				B213E0701C09CECB0089C69D /* PT_Serif-Web-BoldItalic.ttf */,
+				B213E0711C09CECB0089C69D /* PT_Serif-Web-Italic.ttf */,
+				B213E0721C09CECB0089C69D /* PT_Serif-Web-Regular.ttf */,
 				B2D263461BAE960500EAD940 /* Supporting Files */,
 			);
 			path = "Toilet Stories";
@@ -495,8 +491,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B213E0761C09CECB0089C69D /* PT_Serif-Web-Regular.ttf in Resources */,
 				B2D2634E1BAE960500EAD940 /* Main.storyboard in Resources */,
 				B2D263531BAE960500EAD940 /* LaunchScreen.xib in Resources */,
+				B213E0731C09CECB0089C69D /* PT_Serif-Web-Bold.ttf in Resources */,
+				B213E0751C09CECB0089C69D /* PT_Serif-Web-Italic.ttf in Resources */,
+				B213E0741C09CECB0089C69D /* PT_Serif-Web-BoldItalic.ttf in Resources */,
 				B2D263501BAE960500EAD940 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
